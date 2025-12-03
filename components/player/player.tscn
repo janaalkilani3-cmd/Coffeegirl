@@ -9,7 +9,7 @@
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7x5a4"]
 radius = 31.0
-height = 302.0
+height = 180.0
 
 [sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_mpawu"]
 random_pitch = 1.1
@@ -55,7 +55,7 @@ autoplay = "idle"
 texture = ExtResource("3_pvtfm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -46)
+position = Vector2(2, -1)
 shape = SubResource("CapsuleShape2D_7x5a4")
 one_way_collision = true
 
